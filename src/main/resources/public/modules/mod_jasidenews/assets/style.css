@@ -1,0 +1,67 @@
+/*
+ * # ------------------------------------------------------------------------
+# JA Kyanite II - Version 1.0 - Licence Owner JA106916
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# This file may not be redistributed in whole or significant part.
+# ------------------------------------------------------------------------
+ */
+.ja-slidenews-item {
+	border-bottom: 1px dotted #ccc;
+	padding: 8px 0;
+	clear:both;
+	display:table;
+}
+
+.ja-slidenews-item img
+{
+	float:left;
+	margin:3px 5px 3px 0;
+	border:1px solid #ccc;
+	padding:2px;
+}
+
+.ja-slidenews-item .ja-title {
+	display: block;
+	font-weight: bold;
+}
+
+.ja-slidenews-item .ja-createdate {
+	color: #666;
+	font-size: 92%;
+	font-weight: bold;
+	padding: 2px 5px 2px 0;
+}
+.ja-sidenews-title{ font-weight:bold }
+.ja-sidenews-postdate{ font-size:85%; }
+/*****STYLE FOR SIDENEWS LAYOUT******/
+.ja-sidenews{ 
+		width: 100%; 
+	/*	float:left; */
+		overflow: hidden; 
+		position: relative;
+		padding:0;
+		margin:0;
+		cursor:pointer;cursor:hand; 
+}
+.ja-sidenews-display {
+	position: absolute; 
+	top: 0;
+	z-index:1;
+	height: 100%;
+	width:100%
+}
+.ja-sidenews-desc{
+	padding: 0px 3px 0px 3px;
+}
+.ja-slidenews-cover{
+		float: left; 
+		position: absolute; 
+		width: 100%;
+		z-index:3;
+		overflow:hidden;
+		left:0; bottom:0;	
+}
